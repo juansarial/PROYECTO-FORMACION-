@@ -1,0 +1,60 @@
+/* Layout sobre nosotros */
+.about-section {
+  margin-bottom: 60px;
+}
+
+.about-grid {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 16px 0;
+}
+
+.about-text p {
+  font-size: 16px;
+  color: #444445;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* Estadísticas Corporativas */
+.corporate-stats {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f6f6;
+  padding: 40px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.stat-item {
+  flex: 1;
+  min-width: 160px;
+  text-align: center;
+}
+
+.stat-item h3 {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 0 0 8px 0;
+  color: #000000;
+}
+
+.stat-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #767677;
+  text-transform: uppercase;
+  font-weight: 700;
+}
