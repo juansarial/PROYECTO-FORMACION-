@@ -1,0 +1,130 @@
+/* Layout e Paneles */
+.contact-section,
+.contact-page-layout {
+  margin-bottom: 40px;
+}
+
+.contact-wrapper {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.contact-info-panel {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info-panel h2 {
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 16px 0;
+}
+
+.contact-info-panel p {
+  font-size: 16px;
+  color: #444445;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.direct-contact-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ebedee;
+  padding-bottom: 12px;
+}
+
+.direct-contact-item strong {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #767677;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.direct-contact-item p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+}
+
+/* Redes Sociales (Íconos) */
+.social-adidas-title {
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.cont {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.con {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+.con:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+/* Formulario */
+.contact-form-panel {
+  flex: 1;
+  min-width: 300px;
+  background-color: #ffffff;
+}
+
+.contact-form-panel h2 {
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 24px 0;
+}
+
+.adidas-form .form-group {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+/* Estilos de inputs (Formulario Adidas) */
+.adidas-form input[type="text"],
+.adidas-form input[type="email"],
+.adidas-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #767677;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.adidas-form label {
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.btn-adidas-submit {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-adidas-submit:hover {
+  background-color: #363637;
+}
