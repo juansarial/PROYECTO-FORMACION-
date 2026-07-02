@@ -40,12 +40,13 @@ body {
     letter-spacing: 1.5px;
     padding: 28px 0;
     border-bottom: 2px solid transparent;
-    transition: border-color 0.2s ease;
+    transition: 0.5s ease;
 }
 
 .nav-center a:hover,
 .nav-center a.active {
-    border-color: #000000;
+    font-size: 19px;
+    text-decoration:underline;
 }
 
 .nav-right {
@@ -53,11 +54,19 @@ body {
     gap: 24px;
     font-size: 18px;
     cursor: pointer;
+    transition: 0.9s ease;
 }
 
+.nav-right :hover {
+    font-size: 22px;
+}
 .hero-adidas {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffffec;
+    background-image: url(/juan-arias/imagenes/intelf.jpg);
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fffefe;
     padding: 120px 40px;
     text-align: left;
     display: flex;
@@ -120,20 +129,21 @@ body {
 }
 
 .btn-adidas-primary:hover {
-    color: #767677;
-    background-color: #ebedee;
+    color: #fdfdff;
+    background-color: #000000;
     border-color: #ebedee;
 }
 
 .btn-adidas-secondary {
-    background-color: transparent;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #111111;
     border: 1px solid #ffffff;
 }
 
 .btn-adidas-secondary:hover {
-    background-color: #ffffff;
-    color: #000000;
+    color: #fdfdff;
+    background-color: #000000;
+    border-color: #ebedee;
 }
 
 main {
