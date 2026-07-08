@@ -1,168 +1,196 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/global.css" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <title>Gamin Shop | Rendimiento Extremo</title>
-  </head>
 
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <title>Gamin Shop | Rendimiento Extremo</title>
+</head>
+
+<body>
+
     <nav class="site-nav">
-      <div class="nav-left">
-        <img
-          class="logo"
-          src="imagenes/logo.png"
-          alt="Logo Pato Shop"
-        />
-      </div>
-      <div class="nav-center">
-        <a href="./index.html" class="active">Inicio</a>
-        <a href="./nosotros.html">Nosotros</a>
-        <a href="./contactos.html">Contactos</a>
-      </div>
-      <div class="nav-right">
-        <span class="search-icon">🔍</span>
-        <span class="cart-icon">🛒</span>
-      </div>
+        <div class="nav-left">
+    <img class="logo" src="./imagenes/gemini-svg.svg" alt="Logo Pato Shop">
+        </div>
+        <div class="nav-center">
+            <a href="./index.html" class="active">Inicio</a>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./contactos.html">Contactos</a>
+        </div>
+        <div class="nav-right">
+            <span class="search-icon">🔍</span>
+            <span class="cart-icon">🛒</span>
+        </div>
     </nav>
 
     <header class="hero-adidas">
-     HOLAHOLAHOL <div class="hero-content">
-        <h1>GAMING SHOP</h1>
-        <p>EQUIPO PARA ENTUSIASTAS DEL RENDIMIENTO EXTREMO</p>
-        <div class="hero-buttons">
-          <a href="#productos" class="btn-adidas-primary">COMPRAR AHORA</a>
-          <a href="#ventajas" class="btn-adidas-secondary">VER BENEFICIOS</a>
+        <div class="hero-content">
+            <h1>GAMING SHOP</h1>
+            <p>EQUIPO PARA ENTUSIASTAS DEL RENDIMIENTO EXTREMO</p>
+            <div class="hero-buttons">
+                <a href="#productos" class="btn-adidas-primary">COMPRAR AHORA</a>
+                <a href="#ventajas" class="btn-adidas-secondary">VER BENEFICIOS</a>
+            </div>
         </div>
-      </div>
     </header>
 
     <main>
-      <section class="banner-promo">
-        <div class="promo-text">
-          <h2>
-            ÚNETE AL CLUB Y OBTÉN UN 10% DE DESCUENTO EN TU PRIMERA COMPRA
-          </h2>
-          <p>
-            Regístrate en nuestro formulario de contacto para recibir tu código
-            promocional exclusivo.
-          </p>
-        </div>
-      </section>
 
-      <section id="productos">
-        <div class="section-header">
-          <h2>PROCESADORES DE NUEVA GENERACIÓN</h2>
-          <p>
-            Lleva tu setup al siguiente nivel con la arquitectura de hardware
-            más avanzada del mercado.
-          </p>
+        <section class="banner-promo">
+            <div class="promo-text">
+                <h2>ÚNETE AL CLUB Y OBTÉN UN 10% DE DESCUENTO EN TU PRIMERA COMPRA</h2>
+                <p>Regístrate en nuestro formulario de contacto para recibir tu código promocional exclusivo.</p>
+            </div>
+        </section>
+
+        <section id="productos">
+            <div class="section-header">
+                <h2>PROCESADORES DE NUEVA GENERACIÓN</h2>
+                <p>Lleva tu setup al siguiente nivel con la arquitectura de hardware más avanzada del mercado.</p>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Modelo de Procesador</th>
+                            <th>Marca</th>
+                            <th>Núcleos / Hilos</th>
+                            <th>Frecuencia Boost</th>
+                            <th>Segmento principal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Ryzen 9 9950X3D</td><td>AMD</td><td>16C / 32T</td><td>5.7 GHz</td><td>Gaming / Entusiasta</td></tr>
+                        <tr><td>Core Ultra 9 285K</td><td>Intel</td><td>24C / 24T</td><td>5.7 GHz</td><td>Productividad / 3D</td></tr>
+                        <tr><td>Apple M5 Pro</td><td>Apple</td><td>12C (8P + 4E)</td><td>N/A</td><td>Edición Profesional</td></tr>
+                        <tr><td>Ryzen 7 9850X3D</td><td>AMD</td><td>8C / 16T</td><td>5.5 GHz</td><td>Gaming Extremo</td></tr>
+                        <tr><td>Core Ultra 7 265K</td><td>Intel</td><td>20C / 20T</td><td>5.5 GHz</td><td>Gama Alta / Streaming</td></tr>
+                        <tr><td>Ryzen 9 9900X</td><td>AMD</td><td>12C / 24T</td><td>5.6 GHz</td><td>Productividad</td></tr>
+                        <tr><td>Snapdragon X Elite Gen 2</td><td>Qualcomm</td><td>12C</td><td>4.3 GHz</td><td>Ultrabooks / AI PC</td></tr>
+                        <tr><td>Core Ultra 5 245K</td><td>Intel</td><td>14C / 14T</td><td>5.2 GHz</td><td>Gama Media / Gaming</td></tr>
+                        <tr><td>Ryzen 7 9700X</td><td>AMD</td><td>8C / 16T</td><td>5.5 GHz</td><td>Gama Media / Eficiente</td></tr>
+                        <tr><td>Apple M5 Max</td><td>Apple</td><td>16C (12P + 4E)</td><td>N/A</td><td>Workstation Móvil</td></tr>
+                        <tr><td>Core i9-14900KS</td><td>Intel</td><td>24C / 32T</td><td>6.2 GHz</td><td>Entusiasta (Legacy)</td></tr>
+                        <tr><td>Ryzen 5 9600X</td><td>AMD</td><td>6C / 12T</td><td>5.4 GHz</td><td>Gaming Calidad/Precio</td></tr>
+                        <tr><td>Core Ultra 9 285HX</td><td>Intel</td><td>24C / 24T</td><td>5.5 GHz</td><td>Laptops Gaming Top</td></tr>
+                        <tr><td>Ryzen 9 7950X3D</td><td>AMD</td><td>16C / 32T</td><td>5.7 GHz</td><td>Gama Alta (AM5)</td></tr>
+                        <tr><td>Apple M5</td><td>Apple</td><td>8C (4P + 4E)</td><td>N/A</td><td>Uso General / Air</td></tr>
+                        <tr><td>Core Ultra 7 265HX</td><td>Intel</td><td>20C / 20T</td><td>5.3 GHz</td><td>Laptops Premium</td></tr>
+                        <tr><td>Ryzen 9 9955HX</td><td>AMD</td><td>16C / 32T</td><td>5.2 GHz</td><td>Laptops Estaciones de Trabajo</td></tr>
+                        <tr><td>Core i5-14600K</td><td>Intel</td><td>14C / 20T</td><td>5.3 GHz</td><td>Gama Media (Legacy)</td></tr>
+                        <tr><td>Ryzen 5 7600X</td><td>AMD</td><td>6C / 12T</td><td>5.3 GHz</td><td>Presupuesto Ajustado</td></tr>
+                        <tr><td>Core Ultra 5 225</td><td>Intel</td><td>10C / 10T</td><td>4.9 GHz</td><td>Ofimática Avanzada</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="ventajas">
+            <div class="grid-adidas">
+                <div class="grid-card-text">
+                    <h2>RENDIMIENTO SIN CONCESIONES</h2>
+                    <p>Cada componente está seleccionado para ofrecer una ventaja competitiva real.</p>
+                    <ul class="adidas-list">
+                        <li>Mayor velocidad y rendimiento multitarea</li>
+                        <li>Mayor eficiencia energética (Ahorro de batería)</li>
+                        <li>Inteligencia Artificial integrada (NPU)</li>
+                        <li>Menor generación de calor</li>
+                        <li>Gráficos integrados de alta calidad</li>
+                    </ul>
+                </div>
+                <div class="grid-card-media">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/v4KPKrevEgY?si=SIt7l2Z8vrenNDlg"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="section-header">
+                <h2>NUESTRA UBICACIÓN</h2>
+                <p>Visita nuestro centro de experiencia física y prueba los componentes en tiempo real.</p>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.061211183424!2d-75.56844282417726!3d6.255673626229598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428fa48417737%3A0xa19df1f46f414ae9!2sPlaza%20Botero!5e0!3m2!1ses!2sco!4v1710000000000!5m2!1ses!2sco"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <div class="contact-wrapper">
+                <div class="contact-info-panel">
+                    <h2>SOPORTE TÉCNICO Y VENTAS</h2>
+                    <p>¿Tienes dudas sobre compatibilidad de hardware o necesitas una cotización a medida? Escríbenos directamente o completa el formulario de la derecha. Nuestro equipo de expertos te responderá en menos de 24 horas hábiles.</p>
+                    <div class="social-adidas-title">SÍGUENOS EN REDES</div>
+                    <div class="cont">
+                        <a href="https://www.instagram.com/juandi_arial/"><img class="con" src="./imagenes/instagram-logo-on-transparent-background-free-png" alt="Instagram"></a>
+                        <a href="https://www.facebook.com/juandiego.ariasruiz.71"><img class="con" src="./imagenes/2626269.webp" alt="Facebook"></a>
+                        <a href="https://whatsapp.com/channel/0029Vb7WpdF6LwHdXD79g51K"><img class="con" src="./imagenes/free-whatsapp-icon-svg-download-png.webp" alt="WhatsApp"></a>
+                        <a href="https://x.com/Juan_sarial/following"><img class="con" src="./imagenes/twitter-x-logo-png_seeklogo-492396.webp" alt="X"></a>
+                    </div>
+                </div>
+                <div class="contact-form-panel">
+                    <form class="adidas-form">
+                        <div class="form-group">
+                            <input type="text" id="nombre" name="nombre" required placeholder=" ">
+                            <label for="nombre">NOMBRE COMPLETO</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="correo" name="correo" required placeholder=" ">
+                            <label for="correo">CORREO ELECTRÓNICO</label>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="mensaje" name="mensaje" rows="4" required placeholder=" "></textarea>
+                            <label for="mensaje">¿EN QUÉ PODEMOS AYUDARTE?</label>
+                        </div>
+
+                        <button type="submit" class="btn-adidas-submit">ENVIAR SOLICITUD ➔</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="adidas-footer">
+        <div class="footer-top">
+            <div class="footer-col">
+                <h4>PRODUCTOS</h4>
+                <p>Procesadores AM5</p>
+                <p>Intel Core Ultra</p>
+                <p>Hardware Gaming</p>
+                <p>Componentes OEM</p>
+            </div>
+            <div class="footer-col">
+                <h4>ASISTENCIA</h4>
+                <p>Contacto: +57 3003842735</p>
+                <p>Correo: ja5427829@gmail.com</p>
+                <p>Soporte Técnico</p>
+                <p>Cotizaciones Especiales</p>
+            </div>
+            <div class="footer-col">
+                <h4>COLECCIONES</h4>
+                <p>Rendimiento Extremo</p>
+                <p>Estaciones de Trabajo</p>
+                <p>Edición Profesional</p>
+                <p>Eficiencia Energética</p>
+            </div>
         </div>
-        <div class="table-container">
-          <table>
-            <thead>
-              <tr>
-                <th>Modelo de Procesador</th>
-                <th>Marca</th>
-                <th>Núcleos / Hilos</th>
-                <th>Frecuencia Boost</th>
-                <th>Segmento principal</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Ryzen 9 9950X3D</td>
-                <td>AMD</td>
-                <td>16C / 32T</td>
-                <td>5.7 GHz</td>
-                <td>Gaming / Entusiasta</td>
-              </tr>
-              <tr>
-                <td>Core Ultra 9 285K</td>
-                <td>Intel</td>
-                <td>24C / 24T</td>
-                <td>5.7 GHz</td>
-                <td>Productividad / 3D</td>
-              </tr>
-              <tr>
-                <td>Apple M5 Pro</td>
-                <td>Apple</td>
-                <td>12C (8P + 4E)</td>
-                <td>N/A</td>
-                <td>Edición Profesional</td>
-              </tr>
-              <tr>
-                <td>Ryzen 7 9850X3D</td>
-                <td>AMD</td>
-                <td>8C / 16T</td>
-                <td>5.5 GHz</td>
-                <td>Gaming Extremo</td>
-              </tr>
-              <tr>
-                <td>Core Ultra 7 265K</td>
-                <td>Intel</td>
-                <td>20C / 20T</td>
-                <td>5.5 GHz</td>
-                <td>Gama Alta / Streaming</td>
-              </tr>
-              <tr>
-                <td>Ryzen 9 9900X</td>
-                <td>AMD</td>
-                <td>12C / 24T</td>
-                <td>5.6 GHz</td>
-                <td>Productividad</td>
-              </tr>
-              <tr>
-                <td>Snapdragon X Elite Gen 2</td>
-                <td>Qualcomm</td>
-                <td>12C</td>
-                <td>4.3 GHz</td>
-                <td>Ultrabooks / AI PC</td>
-              </tr>
-              <tr>
-                <td>Core Ultra 5 245K</td>
-                <td>Intel</td>
-                <td>14C / 14T</td>
-                <td>5.2 GHz</td>
-                <td>Gama Media / Gaming</td>
-              </tr>
-              <tr>
-                <td>Ryzen 7 9700X</td>
-                <td>AMD</td>
-                <td>8C / 16T</td>
-                <td>5.5 GHz</td>
-                <td>Gama Media / Eficiente</td>
-              </tr>
-              <tr>
-                <td>Apple M5 Max</td>
-                <td>Apple</td>
-                <td>16C (12P + 4E)</td>
-                <td>N/A</td>
-                <td>Workstation Móvil</td>
-              </tr>
-              <tr>
-                <td>Core i9-14900KS</td>
-                <td>Intel</td>
-                <td>24C / 32T</td>
-                <td>6.2 GHz</td>
-                <td>Entusiasta (Legacy)</td>
-              </tr>
-              <tr>
-                <td>Ryzen 5 9600X</td>
-                <td>AMD</td>
-                <td>6C / 12T</td>
-                <td>5.4 GHz</td>
-                <td>Gaming Calidad/Precio</td>
-              </tr>
-              <tr>
-                <td>Core Ultra 9 285HX</td>
-                <td>Intel</td>
-                <td>24C / 24T</td>
-                <td>5.5 GHz</td>
-                <td>Laptops Gaming Top</td>
-              </tr>
-              <tr>
-                <td>Ryzen 9 7950X3D</td>
-                <td>AMD</td>
+        <div class="footer-bottom">
+            <p>© 2026 Gamin Shop - Tienda de Componentes de Hardware Extremo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

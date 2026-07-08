@@ -1,168 +1,123 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/global.css" />
-    <link rel="stylesheet" href="./css/contactos.css" />
-    <title>Contactos | Gamin Shop</title>
-  </head>
 
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <title>Contactos | Gamin Shop</title>
+</head>
+
+<body>
+
     <nav class="site-nav">
-      <div class="nav-left">
-        <img
-          class="logo"
-          src="imagenes/logo.png"
-          alt="Logo Pato Shop"
-        />
-      </div>
-      <div class="nav-center">
-        <a href="./index.html">Inicio</a>
-        <a href="./nosotros.html">Nosotros</a>
-        <a href="./contactos.html" class="active">Contactos</a>
-      </div>
-      <div class="nav-right">
-        <span class="search-icon">🔍</span>
-        <span class="cart-icon">🛒</span>
-      </div>
+        <div class="nav-left">
+            <img class="logo" src="./imagenes/gemini-svg.svg" alt="Logo Pato Shop">
+        </div>
+        <div class="nav-center">
+            <a href="./index.html">Inicio</a>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./contactos.html" class="active">Contactos</a>
+        </div>
+        <div class="nav-right">
+            <span class="search-icon">🔍</span>
+            <span class="cart-icon">🛒</span>
+        </div>
     </nav>
 
     <header class="hero-adidas short-hero">
-      <div class="hero-content">
-        <h1>CENTRO DE CONTACTO</h1>
-        <p>CONÉCTATE CON NUESTRO EQUIPO DE ESPECIALISTAS</p>
-      </div>
+        <div class="hero-content">
+            <h1>CENTRO DE CONTACTO</h1>
+            <p>CONÉCTATE CON NUESTRO EQUIPO DE ESPECIALISTAS</p>
+        </div>
     </header>
 
     <main>
-      <section class="contact-page-layout">
-        <div class="contact-wrapper">
-          <div class="contact-info-panel">
-            <h2>CANALES DE ATENCIÓN DIRECTA</h2>
-            <p>
-              Si prefieres una interacción instantánea o necesitas soporte
-              técnico especializado sobre arquitecturas multinúcleo x86 o ARM,
-              utiliza cualquiera de nuestros canales corporativos oficiales:
-            </p>
 
-            <div class="direct-contact-item">
-              <strong>TELÉFONO MÓVIL DIRECTO:</strong>
-              <p>+57 3003842735</p>
+        <section class="contact-page-layout">
+            <div class="contact-wrapper">
+                <div class="contact-info-panel">
+                    <h2>CANALES DE ATENCIÓN DIRECTA</h2>
+                    <p>Si prefieres una interacción instantánea o necesitas soporte técnico especializado sobre arquitecturas multinúcleo x86 o ARM, utiliza cualquiera de nuestros canales corporativos oficiales:</p>
+                    
+                    <div class="direct-contact-item">
+                        <strong>TELÉFONO MÓVIL DIRECTO:</strong>
+                        <p>+57 3003842735</p>
+                    </div>
+                    
+                    <div class="direct-contact-item">
+                        <strong>CORREO ELECTRÓNICO CORPORATIVO:</strong>
+                        <p>ja5427829@gmail.com</p>
+                    </div>
+
+                    <div class="direct-contact-item">
+                        <strong>HORARIO DE ATENCIÓN GLOBAL:</strong>
+                        <p>Lunes a Viernes: 08:00 AM - 06:00 PM (COT)<br>Sábados: 09:00 AM - 01:00 PM (COT)</p>
+                    </div>
+
+                    <div class="social-adidas-title">NUESTROS CANALES COMUNITARIOS</div>
+                    <div class="cont">
+                        <a href="https://www.instagram.com/juandi_arial/"><img class="con" src="./imagenes/instagram-logo-on-transparent-background-free-png" alt="Instagram"></a>
+                        <a href="https://www.facebook.com/juandiego.ariasruiz.71"><img class="con" src="./imagenes/2626269.webp" alt="Facebook"></a>
+                        <a href="https://whatsapp.com/channel/0029Vb7WpdF6LwHdXD79g51K"><img class="con" src="./imagenes/free-whatsapp-icon-svg-download-png.webp" alt="WhatsApp"></a>
+                        <a href="https://x.com/Juan_sarial/following"><img class="con" src="./imagenes/twitter-x-logo-png_seeklogo-492396.webp" alt="X"></a>
+                    </div>
+                </div>
+                <div class="contact-form-panel">
+                    <h2>ABRIR UN TICKET DE SOPORTE</h2>
+                    <form class="adidas-form">
+                        <div class="form-group">
+                            <input type="text" id="nombre" name="nombre" required placeholder=" ">
+                            <label for="nombre">NOMBRE COMPLETO</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="correo" name="correo" required placeholder=" ">
+                            <label for="correo">CORREO ELECTRÓNICO</label>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="mensaje" name="mensaje" rows="5" required placeholder=" "></textarea>
+                            <label for="mensaje">DESCRIBE TU REQUERIMIENTO TÉCNICO O COTIZACIÓN</label>
+                        </div>
+
+                        <button type="submit" class="btn-adidas-submit">ENVIAR SOLICITUD ➔</button>
+                    </form>
+                </div>
             </div>
+        </section>
 
-            <div class="direct-contact-item">
-              <strong>CORREO ELECTRÓNICO CORPORATIVO:</strong>
-              <p>ja5427829@gmail.com</p>
-            </div>
-
-            <div class="direct-contact-item">
-              <strong>HORARIO DE ATENCIÓN GLOBAL:</strong>
-              <p>
-                Lunes a Viernes: 08:00 AM - 06:00 PM (COT)<br />Sábados: 09:00
-                AM - 01:00 PM (COT)
-              </p>
-            </div>
-
-            <div class="social-adidas-title">NUESTROS CANALES COMUNITARIOS</div>
-            <div class="cont">
-              <a href="https://www.instagram.com/juandi_arial/"
-                ><img
-                  class="con"
-                  src="./imagenes/instagram-logo-on-transparent-background-free-png"
-                  alt="Instagram"
-              /></a>
-              <a href="https://www.facebook.com/juandiego.ariasruiz.71"
-                ><img class="con" src="./imagenes/facebook.webp" alt="Facebook"
-              /></a>
-              <a href="https://whatsapp.com/channel/0029Vb7WpdF6LwHdXD79g51K"
-                ><img class="con" src="./imagenes/whatsapp.webp" alt="WhatsApp"
-              /></a>
-              <a href="https://x.com/Juan_sarial/following"
-                ><img
-                  class="con"
-                  src="./imagenes/twitter.webp"
-                  alt="X"
-              /></a>
-            </div>
-          </div>
-          <div class="contact-form-panel">
-            <h2>ABRIR UN TICKET DE SOPORTE</h2>
-            <form class="adidas-form">
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="nombre"
-                  name="nombre"
-                  required
-                  placeholder=" "
-                />
-                <label for="nombre">NOMBRE COMPLETO</label>
-              </div>
-
-              <div class="form-group">
-                <input
-                  type="email"
-                  id="correo"
-                  name="correo"
-                  required
-                  placeholder=" "
-                />
-                <label for="correo">CORREO ELECTRÓNICO</label>
-              </div>
-
-              <div class="form-group">
-                <textarea
-                  id="mensaje"
-                  name="mensaje"
-                  rows="5"
-                  required
-                  placeholder=" "
-                ></textarea>
-                <label for="mensaje"
-                  >DESCRIBE TU REQUERIMIENTO TÉCNICO O COTIZACIÓN</label
-                >
-              </div>
-
-              <button type="submit" class="btn-adidas-submit">
-                ENVIAR SOLICITUD ➔
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
     </main>
 
     <footer class="adidas-footer">
-      <div class="footer-top">
-        <div class="footer-col">
-          <h4>PRODUCTOS</h4>
-          <p>Procesadores AM5</p>
-          <p>Intel Core Ultra</p>
-          <p>Hardware Gaming</p>
-          <p>Componentes OEM</p>
+        <div class="footer-top">
+            <div class="footer-col">
+                <h4>PRODUCTOS</h4>
+                <p>Procesadores AM5</p>
+                <p>Intel Core Ultra</p>
+                <p>Hardware Gaming</p>
+                <p>Componentes OEM</p>
+            </div>
+            <div class="footer-col">
+                <h4>ASISTENCIA</h4>
+                <p>Contacto: +57 3003842735</p>
+                <p>Correo: ja5427829@gmail.com</p>
+                <p>Soporte Técnico</p>
+                <p>Cotizaciones Especiales</p>
+            </div>
+            <div class="footer-col">
+                <h4>COLECCIONES</h4>
+                <p>Rendimiento Extremo</p>
+                <p>Estaciones de Trabajo</p>
+                <p>Edición Profesional</p>
+                <p>Eficiencia Energética</p>
+            </div>
         </div>
-        <div class="footer-col">
-          <h4>ASISTENCIA</h4>
-          <p>Contacto: +57 3003842735</p>
-          <p>Correo: ja5427829@gmail.com</p>
-          <p>Soporte Técnico</p>
-          <p>Cotizaciones Especiales</p>
+        <div class="footer-bottom">
+            <p>© 2026 Gamin Shop - Tienda de Componentes de Hardware Extremo. Todos los derechos reservados.</p>
         </div>
-        <div class="footer-col">
-          <h4>COLECCIONES</h4>
-          <p>Rendimiento Extremo</p>
-          <p>Estaciones de Trabajo</p>
-          <p>Edición Profesional</p>
-          <p>Eficiencia Energética</p>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>
-          © 2026 Gamin Shop - Tienda de Componentes de Hardware Extremo. Todos
-          los derechos reservados.
-        </p>
-      </div>
     </footer>
-  </body>
+
+</body>
+
 </html>
