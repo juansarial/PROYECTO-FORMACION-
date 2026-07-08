@@ -10,17 +10,17 @@
   <body>
     <nav class="site-nav">
       <div class="nav-left">
-        <img class="logo" src="./imagenes/logo.png" alt="Logo Pato Shop" />
-      </div>
-      <div class="nav-center">
-        <a href="./index.html" class="active">Inicio</a>
-        <a href="./nosotros.html">Nosotros</a>
-        <a href="./contactos.html">Contactos</a>
-      </div>
-      <div class="nav-right">
-        <span class="search-icon">🔍</span>
-        <span class="cart-icon">🛒</span>
-      </div>
+    <img class="logo" src="./imagenes/gemini-svg.svg" alt="Logo Pato Shop">
+</div>
+        <div class="nav-center">
+            <a href="./index.html" class="active">Inicio</a>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./contactos.html">Contactos</a>
+        </div>
+        <div class="nav-right">
+            <span class="search-icon"><ion-icon name="search-outline"></ion-icon></span>
+            <span class="cart-icon"><ion-icon name="cart-outline"></ion-icon></span>
+        </div>
     </nav>
 
     <header class="hero-adidas">
@@ -327,16 +327,43 @@
                 <label for="correo">CORREO ELECTRÓNICO</label>
               </div>
 
-              <div class="form-group">
-                <textarea
-                  id="mensaje"
-                  name="mensaje"
-                  rows="4"
-                  required
-                  placeholder=" "
-                ></textarea>
-                <label for="mensaje">¿EN QUÉ PODEMOS AYUDARTE?</label>
-              </div>
+        
+
+        <section id="contacto" class="contact-section">
+            <div class="contact-wrapper">
+                <div class="contact-info-panel">
+                    <h2>SOPORTE TÉCNICO Y VENTAS</h2>
+                    <p>¿Tienes dudas sobre compatibilidad de hardware o necesitas una cotización a medida? Escríbenos directamente o completa el formulario de la derecha. Nuestro equipo de expertos te responderá en menos de 24 horas hábiles.</p>
+                    <div class="social-adidas-title">SÍGUENOS EN REDES</div>
+                    <div class="cont">
+                        <a href="https://www.instagram.com/juandi_arial/"><img class="con" src="./imagenes/instagram-logo-on-transparent-background-free-png" alt="Instagram"></a>
+                        <a href="https://www.facebook.com/juandiego.ariasruiz.71"><img class="con" src="./imagenes/2626269.webp" alt="Facebook"></a>
+                        <a href="https://whatsapp.com/channel/0029Vb7WpdF6LwHdXD79g51K"><img class="con" src="./imagenes/free-whatsapp-icon-svg-download-png.webp" alt="WhatsApp"></a>
+                        <a href="https://x.com/Juan_sarial/following"><img class="con" src="./imagenes/twitter-x-logo-png_seeklogo-492396.webp" alt="X"></a>
+                    </div>
+                </div>
+                <div class="contact-form-panel">
+                    <form class="adidas-form">
+                        <div class="form-group">
+                            <input type="text" id="nombre" name="nombre" required placeholder=" ">
+                            <label for="nombre">NOMBRE COMPLETO</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="correo" name="correo" required placeholder=" ">
+                            <label for="correo">CORREO ELECTRÓNICO</label>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="mensaje" name="mensaje" rows="4" required placeholder=" "></textarea>
+                            <label for="mensaje">¿EN QUÉ PODEMOS AYUDARTE?</label>
+                        </div>
+
+                        <button type="submit" class="btn-adidas-submit">ENVIAR SOLICITUD ➔</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
               <button type="submit" class="btn-adidas-submit">
                 ENVIAR SOLICITUD ➔
@@ -378,5 +405,12 @@
         </p>
       </div>
     </footer>
-  </body>
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
 </html>

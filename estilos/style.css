@@ -175,9 +175,9 @@ main {
 }
 
 .section-header {
-  margin-bottom: 32px;
-  border-left: 4px solid #000000;
-  padding-left: 16px;
+    margin-bottom: 32px;
+    border-left: 22px solid #000000;
+    padding-left: 45px;
 }
 
 .section-header h2 {
@@ -311,7 +311,15 @@ tr:hover td {
 }
 
 .map-section {
-  margin-bottom: 80px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+iframe{
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+    justify-content: center;
 }
 
 .contact-section,
